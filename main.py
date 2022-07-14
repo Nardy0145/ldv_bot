@@ -3,7 +3,7 @@ from config import api_id, api_hash
 
 app = Client('zxcvvffee', api_id=api_id, api_hash=api_hash)
 words = ['бравл', 'дединсайд', 'геншин', 'гейшин', '15', 'машины', 'ищю', 'татар', 'татарка', '🖤', 'покатушки', 'на машине', 'автозвук']
-names = ['ева', 'eva']
+names = ['ева', 'eva', 'tatarskayamafia']
 
 @app.on_message(filters.chat('leomatchbot'))
 def check(penis, msg: types.Message):
